@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> VINYL VINTAGE </title>
+	<style>
+		:root {
+    --primary: #cc3306;
+    --primaryLight: #ffba43;
+    --secondary: #ffba43;
+    --secondaryLight: #ffba43;
+    --headerColor: #ffffff;
+    --bodyTextColor: #b4b3bd;
+    --bodyTextColorWhite: #fafbfc;
+    /* 13px - 16px */
+    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+    /* 31px - 49px */
+    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+    --bodyFontSize: 1rem;
+    /* 60px - 100px top and bottom */
+    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+}
+
+.cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
+}              
+
+</style>
+	<link rel="stylesheet" href="design.css">
+	</head>
+	<body>
+		  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      VINYL VINTAGE
+    </div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="product.html">PRODUCTS</a>
+      <a href="contactus.html">CONTACT / ABOUT US</a>
+    </nav>
+  </header>
+
+<!-- ============================================ -->
+<!--                                              -->
+<!-- ============================================ -->
+
+	<section id="hero">
+    <div class="cs-container">
+        <div class="cs-flex-group">
+            <span class="cs-topper">VINYL VINTAGE</span>
+            <h1 class="cs-title">Timeless style, Remastered.</h1>
+            <p class="cs-text">
+                Ready to wear your vibe? Explore our collection and find your perfect mix. <b>Because great style— just like great music— never goes out of fashion.</b>
+            </p>
+            <div class="cs-button-group">
+                <a href="product.html" class="cs-button-solid cs-button">PRODUCTS</a>
+                <a href="contactus.html" class="cs-button-transparent cs-button">
+                    <img class="cs-img" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg" alt="play icon" width="17" height="17">
+                    ABOUT US
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="cover.jpg">
+        <source media="(min-width: 601px)" srcset="cover.jpg">
+        <img loading="lazy" decoding="async" src="cover.jpg" alt="mountains" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                                              -->
+<!-- ============================================ -->
+
+<section id="intro">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="1.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="1.png">
+                <img loading="lazy" decoding="async" src="1.png" alt="tshirt-prev" width="413" height="500">
+            </picture>
+            <!--Top Right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="2.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="2.png">
+                <img loading="lazy" decoding="async" src="2.png" alt="mechanic" width="413" height="280">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">Introduction</span>
+            <h2 class="cs-title">"Inspired by the past, designed for the bold. Vintage style, remastered for today."</h2>
+            <p class="cs-text">
+                At Vinyl Vintage, we blend the best of the past with the boldness of today. Inspired by classic fashion and timeless music, our clothing brings vintage vibes with a modern twist. From retro-inspired graphic tees to effortlessly cool denim and statement pieces that turn heads, every design is crafted for those who live loud, dress bold, and embrace individuality. Our pieces aren’t just clothes—they’re stories. They’re the anthems of past decades, remixed for the dreamers, the rebels, and the trendsetters of today. Whether you're chasing the groove of the ‘70s, the grunge of the ‘90s, or something uniquely your own, Vinyl Vintage is your go-to for authentic, head-turning style.
+            </p>
+            <a href="product.html" class="cs-button-solid">View Our Products</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                                              -->
+<!-- ============================================ -->
+
+<section id="welcome">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">WELCOME</span>
+            <h2 class="cs-title">Why Choose Vinyl Vintage?<h2>
+            <p class="cs-text">
+                we believe fashion is more than just clothing—it’s a statement, a vibe, a story. Inspired by the best of past eras and reimagined for today’s trendsetters, our pieces blend classic aesthetics with modern comfort. Whether you’re a fan of retro graphics, vintage denim, or effortlessly cool streetwear, we’ve got something that speaks your style.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-number">01</span>
+                <h3 class="cs-h3">Authentic Vintage Vibes –</h3>
+                <p class="cs-item-text">
+                    Our designs are inspired by iconic fashion eras, giving you that perfect mix of nostalgia and fresh, modern appeal.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">02</span>
+                <h3 class="cs-h3">Quality & Comfort –</h3>
+                <p class="cs-item-text">
+                   We use premium materials that not only look great but feel amazing, ensuring long-lasting wear and unbeatable comfort.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">03</span>
+                <h3 class="cs-h3">Sustainable & Ethical – </h3>
+                <p class="cs-item-text">
+                    We prioritize eco-friendly fabrics and responsible production, so you can look good while doing good for the planet.
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-number">04</span>
+                <h3 class="cs-h3">Wear Your Story –</h3>
+                <p class="cs-item-text">
+                    Just like a great vinyl record, our pieces are timeless. Each item is crafted for those who want to express themselves boldly and uniquely.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                                              -->
+<!-- ============================================ -->
+
+<footer id="footer">
+    <div class="cs-container">
+        <ul class="cs-ul">
+            <li class="cs-li">
+                <a href="index.html" class="cs-link">Home</a>
+            </li>
+            <li class="cs-li">
+                <a href="product.html" class="cs-link">Product</a>
+            </li>
+            <li class="cs-li">
+                <a href="contactus.html" class="cs-link">About Us / Contact</a>
+            </li>
+        </ul>
+        <span class="cs-copyright">© 2025 COMPROG 3 - GROUP 5</span>
+    </div>
+</footer>
+
+<!-- ============================================ -->
+<!--                                              -->
+<!-- ============================================ -->
+
+</body>
+</html>
+
+                                
